@@ -1,11 +1,13 @@
 # Multi-Range Gaussian Raman Features for Binary Polyethylene Classification
 
-This repository contains the curated Raman data subset and Python scripts used for preprocessing, Gaussian peak fitting, feature construction, classification, baseline comparison, and ablation analysis for binary HDPE-LDPE classification.
+This repository contains the curated handheld Raman data subset and Python scripts used for preprocessing, Gaussian peak fitting, feature construction, classification, baseline comparison, and ablation analysis for binary HDPE-LDPE classification.
+
+The repository corresponds to the fixed 700-spectrum subset used in the main manuscript analyses and is organized for direct local execution with relative paths.
 
 ## Repository structure
 
 ```text
-Repo/
+.
 |- README.md
 |- requirements.txt
 |- .gitignore
@@ -25,22 +27,24 @@ Repo/
 `- outputs/
 ```
 
-## Dataset included
+## Contents
 
 - `data/HDPE`: 350 curated handheld Raman spectra
 - `data/LDPE`: 350 curated handheld Raman spectra
 
 The `data/` directory contains the fixed 700-spectrum subset used in the main manuscript analyses.
 
-## Environment
+- `code/`: preprocessing, Gaussian fitting, feature construction, classification, and comparison scripts
+- `external_data/`: placeholder directory for optional external TXT spectra
+- `outputs/`: generated analysis outputs written by the scripts
+
+## Reproducing the main manuscript pipeline
 
 Install dependencies with:
 
 ```bash
 pip install -r requirements.txt
 ```
-
-## Main pipeline
 
 Run the scripts in this order:
 
