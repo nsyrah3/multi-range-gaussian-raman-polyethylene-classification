@@ -5,7 +5,7 @@ This repository contains the curated Raman data subset and Python scripts used f
 ## Repository structure
 
 ```text
-github_repo_final/
+Repo/
 |- README.md
 |- requirements.txt
 |- .gitignore
