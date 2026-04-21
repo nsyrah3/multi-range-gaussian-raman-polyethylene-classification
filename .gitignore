@@ -1,0 +1,12 @@
+outputs/*
+!outputs/.gitkeep
+
+external_data/*
+!external_data/.gitkeep
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+Thumbs.db
